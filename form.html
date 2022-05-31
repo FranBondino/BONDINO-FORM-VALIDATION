@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="form.css">
+        <link rel="stylesheet" type="text/css" href="fonts.css">
+        <link rel="stylesheet"  href="queries.css">
+        <script src="validation.js"></script>
+        <title> Portal de noticias </title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <div class="container flex-nav">
+                <div class="nav-header">
+                    <h2><span>Portal News</span></h2>
+                    <button class="nav-toggle" id="navToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <nav class="nav-links" id="nav-links">
+                    <ul>
+                        <li class="nav-link"><a href="./index.html">Home</a></li>
+                        <li class="nav-link"><a href="#">Sobre nosotros</a></li>
+                        <li class="nav-link"><a href="./form.html"><span>Suscribirse</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="form-suscripcion">
+            <h4>Formulario de Suscripcion</h4>
+            <input class="controls" type="text" name="nombre" id="nombreInput" placeholder="Ingrese su Nombre">
+            <p id="nameError" class="hiddenError">Debe poseer como minimo tres letras</p>
+            <input class="controls" type="text" name="apellido" id="apellidoInput" placeholder="Ingrese su Apellido">
+            <p id="surNameError" class="hiddenError">Debe poseer como minimo tres letras</p>
+            <input class="controls" type="email" name="correo" id="correoInput" placeholder="Ingrese su Correo">
+            <p id="emailError" class="hiddenError">El correo debe poseer un formato valido</p>
+            <input class="controls" type="text" name="telefono" id="telefonoInput" placeholder="Ingrese su Telefono">
+            <p id="telefonoError" class="hiddenError">El telefono debe poseer como minimo 7 digitos sin caracteres especiales</p>
+            <input class="controls" type="text" name="direccion" id="direccionInput" placeholder="Ingrese su Direccion">
+            <p id="direccionError" class="hiddenError">La direccion debe poseer un espacio entre medio y estar formada por letras y numeros</p>
+            <input class="controls" type="password" name="contraseña" id="contraseñaInput" placeholder="Ingrese su Contraseña">
+            <p id="passwordError" class="hiddenError">La contraseña debe poseer como minimo 8 caracteres y estar formada por letras y numeros</p>
+            <input class="botons" type="submit" value="Enviar">
+        </div>
+        <footer>
+            <h3>Footer</h3>
+        </footer>   
+    </body>   
+</html>  
+        

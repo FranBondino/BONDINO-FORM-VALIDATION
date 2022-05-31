@@ -1,0 +1,108 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+  }
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 40px;
+  }
+  
+.nav-link {
+    list-style: none;
+    margin: 20px 0;
+    border-bottom: 2px solid white;
+    width: 8rem;
+  }
+  
+.navbar {
+    background: rgb(23, 23, 24);
+    position: fixed;
+    width: 100%;
+    top:0;
+  }
+
+.flex-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-header span {
+    color: rgb(72, 202, 235);
+  }
+  
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-toggle {
+    border: transparent;
+    background: transparent;
+    color: white;
+    font-size: 1.7rem;
+  }
+  
+  .nav-links {
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .nav-open {
+    height: 100vh;
+  }
+
+  /* columns */
+  /* STRUCTURE */
+.wrapper {
+  padding: 5px;
+  margin: 50px auto;
+}
+
+header {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  flex-flow: column; 
+  margin: 10px;
+}
+
+.column {
+  flex: auto;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  min-height: 100vh;
+  background-color: gainsboro;
+}
+
+footer {
+  padding: 20px;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid grey;
+  text-align: center;
+  width: 100%;
+}
+
